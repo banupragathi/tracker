@@ -1,0 +1,20 @@
+{
+  "name": "toner-tracker",
+  "version": "1.0.0",
+  "description": "Production-grade Toner Tracking System",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "better-sqlite3": "^12.9.0",
+    "connect-sqlite3": "^0.9.13",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Database (runtime file — don't commit)
+toner.db
+toner.db-shm
+toner.db-wal
+
+# Session store
+sessions/
+
+# Environment
+.env
+.env.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+*.suo
+*.ntvs*
